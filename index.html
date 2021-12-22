@@ -17,18 +17,18 @@
         <form>
         <div class="mb-3">
           <label for="cotacao" class="form-label">Cotação</label>
-          <input type="text" class="form-control" id="cotacao" aria-describedby="Cotacao" placeholder="Cotação">
+          <input type="text" class="form-control" id="cotacao" aria-describedby="Cotacao" placeholder="Cotação" required>
         </div>
         <div class="mb-3">
           <label for="dolares" class="form-label">Quantidade de Dólares</label>
-          <input type="text" class="form-control" id="dolares" placeholder="Quantidade de Dólares">
+          <input type="text" class="form-control" id="dolares" placeholder="Quantidade de Dólares" required>
         </div>
-        <button id="calc" type="submit" class="btn-prime" >Converter</button>
+        <button id="calc" type="button" class="btn-prime" >Converter</button>
         <div class="mt-3">
           <label for=""  class="form-label">
               Retorno em Real
           </label>
-          <input type="text" id="real" class="form-control" placeholder="R$ 0,00" disabled>
+          <input type="text" id="convercao" class="form-control" placeholder="R$ 0,00" disabled>
         </div>
       </form>
     </div>
