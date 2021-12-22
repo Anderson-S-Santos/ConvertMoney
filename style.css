@@ -1,0 +1,18 @@
+#box{
+   border: 2px black solid;
+   width: 400px;
+   margin: auto;
+   padding: 2px;
+   width: 400px;
+}
+
+h1{
+    height: 80px;
+    text-align: center;
+    color: black;
+}
+
+#btn{
+   border: 1px black solid;
+   margin: auto;
+}
